@@ -12,7 +12,7 @@ export default function About() {
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-3 bg-blue-600 rounded-lg">
-                <award className="text-white" size={24} />
+                <Award className="text-white" size={24} />
               </div>
               <h3 className="text-2xl font-semibold text-slate-800">Achievements</h3>
             </div>
@@ -39,7 +39,7 @@ export default function About() {
           <div className="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center gap-3 mb-4">
               <div className="p-3 bg-cyan-600 rounded-lg">
-                <users className="text-white" size={24} />
+                <Users className="text-white" size={24} />
               </div>
               <h3 className="text-2xl font-semibold text-slate-800">Leadership</h3>
             </div>
